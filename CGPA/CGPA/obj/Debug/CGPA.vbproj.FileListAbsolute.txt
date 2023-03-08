@@ -1,0 +1,10 @@
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\bin\Debug\CGPA.exe.config
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\bin\Debug\CGPA.exe
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\bin\Debug\CGPA.pdb
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\bin\Debug\CGPA.xml
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\obj\Debug\CGPA.vbproj.GenerateResource.Cache
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\obj\Debug\CGPA.exe
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\obj\Debug\CGPA.xml
+C:\Users\not yet\Desktop\PRACTICE\CGPA\CGPA\obj\Debug\CGPA.pdb

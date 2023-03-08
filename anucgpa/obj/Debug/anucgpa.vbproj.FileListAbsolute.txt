@@ -1,0 +1,20 @@
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\bin\Debug\anucgpa.exe.config
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\bin\Debug\anucgpa.exe
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\bin\Debug\anucgpa.pdb
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\bin\Debug\anucgpa.xml
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\obj\Debug\anucgpa.Form1.resources
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\obj\Debug\anucgpa.Resources.resources
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\obj\Debug\anucgpa.vbproj.GenerateResource.Cache
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\obj\Debug\anucgpa.exe
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\obj\Debug\anucgpa.xml
+C:\Users\not yet\AppData\Local\Temporary Projects\anucgpa\obj\Debug\anucgpa.pdb
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\bin\Debug\anucgpa.exe.config
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\obj\Debug\anucgpa.xml
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\obj\Debug\anucgpa.pdb
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\bin\Debug\anucgpa.exe
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\bin\Debug\anucgpa.pdb
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\bin\Debug\anucgpa.xml
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\obj\Debug\anucgpa.Form1.resources
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\obj\Debug\anucgpa.Resources.resources
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\obj\Debug\anucgpa.vbproj.GenerateResource.Cache
+C:\Users\not yet\Desktop\PRACTICE\anucgpa\anucgpa\obj\Debug\anucgpa.exe

@@ -1,0 +1,604 @@
+Public Class Form1
+
+    Dim A = 4
+    Dim AM = 3.75
+    Dim BP = 3.5
+    Dim B = 3.25
+    Dim BM = 3
+    Dim CP = 2.75
+    Dim C = 2.5
+    Dim CM = 2.25
+    Dim DP = 2
+    Dim D = 1.75
+    Dim DM = 1.5
+
+
+
+    Private Sub calculate_Click(sender As Object, e As EventArgs) Handles calculate.Click
+        If gradepoint0.Text = "A" Then
+            gpa.Text = 4 * credithrs0.Text
+        ElseIf gradepoint0.Text = "AM" Then
+            gpa.Text = 3.75 * credithrs0.Text
+        ElseIf gradepoint0.Text = "BP" Then
+            gpa.Text = 3.5 * credithrs0.Text
+        ElseIf gradepoint0.Text = "B" Then
+            gpa.Text = 3.25 * credithrs0.Text
+        ElseIf gradepoint0.Text = "BM" Then
+            gpa.Text = 3 * credithrs0.Text
+        ElseIf gradepoint0.Text = "CP" Then
+            gpa.Text = 2.75 * credithrs0.Text
+        ElseIf gradepoint0.Text = "C" Then
+            gpa.Text = 2.5 * credithrs0.Text
+        ElseIf gradepoint0.Text = "CM" Then
+            gpa.Text = 2.25 * credithrs0.Text
+        ElseIf gradepoint0.Text = "DP" Then
+            gpa.Text = 2 * credithrs0.Text
+        ElseIf gradepoint0.Text = "D" Then
+            gpa.Text = 1.75 * credithrs0.Text
+        ElseIf gradepoint0.Text = "DM" Then
+            gpa.Text = 1.5 * credithrs0.Text
+        End If
+
+        If gradepoint1.Text = "A" Then
+            gpa1.Text = 4 * credithrs1.Text
+        ElseIf gradepoint1.Text = "AM" Then
+            gpa1.Text = 3.75 * credithrs1.Text
+        ElseIf gradepoint1.Text = "BP" Then
+            gpa1.Text = 3.5 * credithrs1.Text
+        ElseIf gradepoint1.Text = "B" Then
+            gpa1.Text = 3.25 * credithrs1.Text
+        ElseIf gradepoint1.Text = "BM" Then
+            gpa1.Text = 3 * credithrs1.Text
+        ElseIf gradepoint1.Text = "CP" Then
+            gpa1.Text = 2.75 * credithrs1.Text
+        ElseIf gradepoint1.Text = "C" Then
+            gpa1.Text = 2.5 * credithrs1.Text
+        ElseIf gradepoint1.Text = "CM" Then
+            gpa1.Text = 2.25 * credithrs1.Text
+        ElseIf gradepoint1.Text = "DP" Then
+            gpa1.Text = 2 * credithrs1.Text
+        ElseIf gradepoint1.Text = "D" Then
+            gpa1.Text = 1.75 * credithrs1.Text
+        ElseIf gradepoint1.Text = "DM" Then
+            gpa1.Text = 1.5 * credithrs1.Text
+        End If
+        If gradepoint2.Text = "A" Then
+            gpa2.Text = 4 * credithrs2.Text
+        ElseIf gradepoint2.Text = "AM" Then
+            gpa2.Text = 3.75 * credithrs2.Text
+        ElseIf gradepoint2.Text = "BP" Then
+            gpa2.Text = 3.5 * credithrs2.Text
+        ElseIf gradepoint2.Text = "B" Then
+            gpa2.Text = 3.25 * credithrs2.Text
+        ElseIf gradepoint2.Text = "BM" Then
+            gpa2.Text = 3 * credithrs2.Text
+        ElseIf gradepoint2.Text = "CP" Then
+            gpa2.Text = 2.75 * credithrs2.Text
+        ElseIf gradepoint2.Text = "C" Then
+            gpa2.Text = 2.5 * credithrs2.Text
+        ElseIf gradepoint2.Text = "CM" Then
+            gpa2.Text = 2.25 * credithrs2.Text
+        ElseIf gradepoint2.Text = "DP" Then
+            gpa2.Text = 2 * credithrs2.Text
+        ElseIf gradepoint2.Text = "D" Then
+            gpa2.Text = 1.75 * credithrs2.Text
+        ElseIf gradepoint2.Text = "DM" Then
+            gpa2.Text = 1.5 * credithrs2.Text
+        End If
+
+        If gradepoint3.Text = "A" Then
+            gpa3.Text = 4 * credithrs3.Text
+        ElseIf gradepoint3.Text = "AM" Then
+            gpa3.Text = 3.75 * credithrs3.Text
+        ElseIf gradepoint3.Text = "BP" Then
+            gpa3.Text = 3.5 * credithrs3.Text
+        ElseIf gradepoint3.Text = "B" Then
+            gpa3.Text = 3.25 * credithrs3.Text
+        ElseIf gradepoint3.Text = "BM" Then
+            gpa3.Text = 3 * credithrs3.Text
+        ElseIf gradepoint3.Text = "CP" Then
+            gpa3.Text = 2.75 * credithrs3.Text
+        ElseIf gradepoint3.Text = "C" Then
+            gpa3.Text = 2.5 * credithrs3.Text
+        ElseIf gradepoint3.Text = "CM" Then
+            gpa3.Text = 2.25 * credithrs3.Text
+        ElseIf gradepoint3.Text = "DP" Then
+            gpa3.Text = 2 * credithrs3.Text
+        ElseIf gradepoint3.Text = "D" Then
+            gpa3.Text = 1.75 * credithrs3.Text
+        ElseIf gradepoint3.Text = "DM" Then
+            gpa3.Text = 1.5 * credithrs3.Text
+        End If
+
+        If gradepoint4.Text = "A" Then
+            gpa4.Text = 4 * credithrs4.Text
+        ElseIf gradepoint4.Text = "AM" Then
+            gpa4.Text = 3.75 * credithrs4.Text
+        ElseIf gradepoint4.Text = "BP" Then
+            gpa4.Text = 3.5 * credithrs4.Text
+        ElseIf gradepoint4.Text = "B" Then
+            gpa4.Text = 3.25 * credithrs4.Text
+        ElseIf gradepoint4.Text = "BM" Then
+            gpa4.Text = 3 * credithrs4.Text
+        ElseIf gradepoint4.Text = "CP" Then
+            gpa4.Text = 2.75 * credithrs4.Text
+        ElseIf gradepoint4.Text = "C" Then
+            gpa4.Text = 2.5 * credithrs4.Text
+        ElseIf gradepoint4.Text = "CM" Then
+            gpa4.Text = 2.25 * credithrs4.Text
+        ElseIf gradepoint4.Text = "DP" Then
+            gpa4.Text = 2 * credithrs4.Text
+        ElseIf gradepoint4.Text = "D" Then
+            gpa4.Text = 1.75 * credithrs4.Text
+        ElseIf gradepoint4.Text = "DM" Then
+            gpa4.Text = 1.5 * credithrs4.Text
+        End If
+
+        If gradepoint5.Text = "A" Then
+            gpa5.Text = 4 * credithrs5.Text
+        ElseIf gradepoint5.Text = "AM" Then
+            gpa5.Text = 3.75 * credithrs5.Text
+        ElseIf gradepoint5.Text = "BP" Then
+            gpa5.Text = 3.5 * credithrs5.Text
+        ElseIf gradepoint5.Text = "B" Then
+            gpa5.Text = 3.25 * credithrs5.Text
+        ElseIf gradepoint5.Text = "BM" Then
+            gpa5.Text = 3 * credithrs5.Text
+        ElseIf gradepoint5.Text = "CP" Then
+            gpa5.Text = 2.75 * credithrs5.Text
+        ElseIf gradepoint5.Text = "C" Then
+            gpa5.Text = 2.5 * credithrs5.Text
+        ElseIf gradepoint5.Text = "CM" Then
+            gpa5.Text = 2.25 * credithrs5.Text
+        ElseIf gradepoint5.Text = "DP" Then
+            gpa5.Text = 2 * credithrs5.Text
+        ElseIf gradepoint5.Text = "D" Then
+            gpa5.Text = 1.75 * credithrs5.Text
+        ElseIf gradepoint5.Text = "DM" Then
+            gpa5.Text = 1.5 * credithrs5.Text
+        End If
+
+        If gradepoint6.Text = "A" Then
+            gpa6.Text = 4 * credithrs6.Text
+        ElseIf gradepoint6.Text = "AM" Then
+            gpa6.Text = 3.75 * credithrs6.Text
+        ElseIf gradepoint6.Text = "BP" Then
+            gpa6.Text = 3.5 * credithrs6.Text
+        ElseIf gradepoint6.Text = "B" Then
+            gpa6.Text = 3.25 * credithrs6.Text
+        ElseIf gradepoint6.Text = "BM" Then
+            gpa6.Text = 3 * credithrs6.Text
+        ElseIf gradepoint6.Text = "CP" Then
+            gpa6.Text = 2.75 * credithrs6.Text
+        ElseIf gradepoint6.Text = "C" Then
+            gpa6.Text = 2.5 * credithrs6.Text
+        ElseIf gradepoint6.Text = "CM" Then
+            gpa6.Text = 2.25 * credithrs6.Text
+        ElseIf gradepoint6.Text = "DP" Then
+            gpa6.Text = 2 * credithrs6.Text
+        ElseIf gradepoint6.Text = "D" Then
+            gpa6.Text = 1.75 * credithrs6.Text
+        ElseIf gradepoint6.Text = "DM" Then
+            gpa6.Text = 1.5 * credithrs6.Text
+        End If
+
+        If gradepoint7.Text = "A" Then
+            gpa7.Text = 4 * credithrs7.Text
+        ElseIf gradepoint7.Text = "AM" Then
+            gpa7.Text = 3.75 * credithrs7.Text
+        ElseIf gradepoint7.Text = "BP" Then
+            gpa7.Text = 3.5 * credithrs7.Text
+        ElseIf gradepoint7.Text = "B" Then
+            gpa7.Text = 3.25 * credithrs7.Text
+        ElseIf gradepoint7.Text = "BM" Then
+            gpa7.Text = 3 * credithrs7.Text
+        ElseIf gradepoint7.Text = "CP" Then
+            gpa7.Text = 2.75 * credithrs7.Text
+        ElseIf gradepoint7.Text = "C" Then
+            gpa7.Text = 2.5 * credithrs0.Text
+        ElseIf gradepoint7.Text = "CM" Then
+            gpa7.Text = 2.25 * credithrs7.Text
+        ElseIf gradepoint7.Text = "DP" Then
+            gpa7.Text = 2 * credithrs7.Text
+        ElseIf gradepoint7.Text = "D" Then
+            gpa7.Text = 1.75 * credithrs7.Text
+        ElseIf gradepoint7.Text = "DM" Then
+            gpa7.Text = 1.5 * credithrs7.Text
+        End If
+
+        If gradepoint8.Text = "A" Then
+            gpa8.Text = 4 * credithrs8.Text
+        ElseIf gradepoint8.Text = "AM" Then
+            gpa8.Text = 3.75 * credithrs8.Text
+        ElseIf gradepoint8.Text = "BP" Then
+            gpa8.Text = 3.5 * credithrs8.Text
+        ElseIf gradepoint8.Text = "B" Then
+            gpa8.Text = 3.25 * credithrs8.Text
+        ElseIf gradepoint8.Text = "BM" Then
+            gpa8.Text = 3 * credithrs8.Text
+        ElseIf gradepoint8.Text = "CP" Then
+            gpa8.Text = 2.75 * credithrs8.Text
+        ElseIf gradepoint8.Text = "C" Then
+            gpa8.Text = 2.5 * credithrs8.Text
+        ElseIf gradepoint8.Text = "CM" Then
+            gpa8.Text = 2.25 * credithrs8.Text
+        ElseIf gradepoint8.Text = "DP" Then
+            gpa8.Text = 2 * credithrs8.Text
+        ElseIf gradepoint8.Text = "D" Then
+            gpa8.Text = 1.75 * credithrs8.Text
+        ElseIf gradepoint8.Text = "DM" Then
+            gpa8.Text = 1.5 * credithrs8.Text
+        End If
+
+        If gradepoint9.Text = "A" Then
+            gpa9.Text = 4 * credithrs9.Text
+        ElseIf gradepoint9.Text = "AM" Then
+            gpa9.Text = 3.75 * credithrs9.Text
+        ElseIf gradepoint9.Text = "BP" Then
+            gpa9.Text = 3.5 * credithrs9.Text
+        ElseIf gradepoint9.Text = "B" Then
+            gpa9.Text = 3.25 * credithrs9.Text
+        ElseIf gradepoint9.Text = "BM" Then
+            gpa9.Text = 3 * credithrs9.Text
+        ElseIf gradepoint9.Text = "CP" Then
+            gpa9.Text = 2.75 * credithrs9.Text
+        ElseIf gradepoint9.Text = "C" Then
+            gpa9.Text = 2.5 * credithrs9.Text
+        ElseIf gradepoint9.Text = "CM" Then
+            gpa9.Text = 2.25 * credithrs9.Text
+        ElseIf gradepoint9.Text = "DP" Then
+            gpa9.Text = 2 * credithrs9.Text
+        ElseIf gradepoint9.Text = "D" Then
+            gpa9.Text = 1.75 * credithrs9.Text
+        ElseIf gradepoint9.Text = "DM" Then
+            gpa9.Text = 1.5 * credithrs9.Text
+        End If
+
+        If gradepoint10.Text = "A" Then
+            gpa10.Text = 4 * credithrs10.Text
+        ElseIf gradepoint10.Text = "AM" Then
+            gpa10.Text = 3.75 * credithrs10.Text
+        ElseIf gradepoint10.Text = "BP" Then
+            gpa10.Text = 3.5 * credithrs10.Text
+        ElseIf gradepoint10.Text = "B" Then
+            gpa10.Text = 3.25 * credithrs10.Text
+        ElseIf gradepoint10.Text = "BM" Then
+            gpa10.Text = 3 * credithrs10.Text
+        ElseIf gradepoint10.Text = "CP" Then
+            gpa10.Text = 2.75 * credithrs10.Text
+        ElseIf gradepoint10.Text = "C" Then
+            gpa10.Text = 2.5 * credithrs10.Text
+        ElseIf gradepoint10.Text = "CM" Then
+            gpa10.Text = 2.25 * credithrs10.Text
+        ElseIf gradepoint10.Text = "DP" Then
+            gpa10.Text = 2 * credithrs10.Text
+        ElseIf gradepoint10.Text = "D" Then
+            gpa10.Text = 1.75 * credithrs10.Text
+        ElseIf gradepoint10.Text = "DM" Then
+            gpa10.Text = 1.5 * credithrs10.Text
+        End If
+
+        If gradepoint11.Text = "A" Then
+            gpa11.Text = 4 * credithrs11.Text
+        ElseIf gradepoint11.Text = "AM" Then
+            gpa11.Text = 3.75 * credithrs11.Text
+        ElseIf gradepoint11.Text = "BP" Then
+            gpa11.Text = 3.5 * credithrs11.Text
+        ElseIf gradepoint11.Text = "B" Then
+            gpa11.Text = 3.25 * credithrs11.Text
+        ElseIf gradepoint11.Text = "BM" Then
+            gpa11.Text = 3 * credithrs11.Text
+        ElseIf gradepoint11.Text = "CP" Then
+            gpa11.Text = 2.75 * credithrs11.Text
+        ElseIf gradepoint11.Text = "C" Then
+            gpa11.Text = 2.5 * credithrs11.Text
+        ElseIf gradepoint11.Text = "CM" Then
+            gpa11.Text = 2.25 * credithrs11.Text
+        ElseIf gradepoint11.Text = "DP" Then
+            gpa11.Text = 2 * credithrs11.Text
+        ElseIf gradepoint11.Text = "D" Then
+            gpa11.Text = 1.75 * credithrs11.Text
+        ElseIf gradepoint11.Text = "DM" Then
+            gpa11.Text = 1.5 * credithrs11.Text
+        End If
+
+        If gradepoint12.Text = "A" Then
+            gpa12.Text = 4 * credithrs12.Text
+        ElseIf gradepoint12.Text = "AM" Then
+            gpa12.Text = 3.75 * credithrs12.Text
+        ElseIf gradepoint12.Text = "BP" Then
+            gpa12.Text = 3.5 * credithrs12.Text
+        ElseIf gradepoint12.Text = "B" Then
+            gpa12.Text = 3.25 * credithrs12.Text
+        ElseIf gradepoint12.Text = "BM" Then
+            gpa12.Text = 3 * credithrs12.Text
+        ElseIf gradepoint12.Text = "CP" Then
+            gpa12.Text = 2.75 * credithrs12.Text
+        ElseIf gradepoint12.Text = "C" Then
+            gpa12.Text = 2.5 * credithrs12.Text
+        ElseIf gradepoint12.Text = "CM" Then
+            gpa12.Text = 2.25 * credithrs12.Text
+        ElseIf gradepoint12.Text = "DP" Then
+            gpa12.Text = 2 * credithrs12.Text
+        ElseIf gradepoint12.Text = "D" Then
+            gpa12.Text = 1.75 * credithrs12.Text
+        ElseIf gradepoint12.Text = "DM" Then
+            gpa12.Text = 1.5 * credithrs12.Text
+        End If
+
+        If gradepoint13.Text = "A" Then
+            gpa13.Text = 4 * credithrs13.Text
+        ElseIf gradepoint13.Text = "AM" Then
+            gpa13.Text = 3.75 * credithrs13.Text
+        ElseIf gradepoint13.Text = "BP" Then
+            gpa13.Text = 3.5 * credithrs13.Text
+        ElseIf gradepoint13.Text = "B" Then
+            gpa13.Text = 3.25 * credithrs13.Text
+        ElseIf gradepoint13.Text = "BM" Then
+            gpa13.Text = 3 * credithrs13.Text
+        ElseIf gradepoint13.Text = "CP" Then
+            gpa13.Text = 2.75 * credithrs13.Text
+        ElseIf gradepoint13.Text = "C" Then
+            gpa13.Text = 2.5 * credithrs13.Text
+        ElseIf gradepoint13.Text = "CM" Then
+            gpa13.Text = 2.25 * credithrs13.Text
+        ElseIf gradepoint13.Text = "DP" Then
+            gpa13.Text = 2 * credithrs13.Text
+        ElseIf gradepoint13.Text = "D" Then
+            gpa13.Text = 1.75 * credithrs13.Text
+        ElseIf gradepoint13.Text = "DM" Then
+            gpa13.Text = 1.5 * credithrs13.Text
+        End If
+
+        If gradepoint14.Text = "A" Then
+            gpa14.Text = 4 * credithrs14.Text
+        ElseIf gradepoint14.Text = "AM" Then
+            gpa14.Text = 3.75 * credithrs14.Text
+        ElseIf gradepoint14.Text = "BP" Then
+            gpa14.Text = 3.5 * credithrs14.Text
+        ElseIf gradepoint14.Text = "B" Then
+            gpa14.Text = 3.25 * credithrs14.Text
+        ElseIf gradepoint14.Text = "BM" Then
+            gpa14.Text = 3 * credithrs14.Text
+        ElseIf gradepoint14.Text = "CP" Then
+            gpa14.Text = 2.75 * credithrs14.Text
+        ElseIf gradepoint14.Text = "C" Then
+            gpa14.Text = 2.5 * credithrs14.Text
+        ElseIf gradepoint14.Text = "CM" Then
+            gpa14.Text = 2.25 * credithrs14.Text
+        ElseIf gradepoint14.Text = "DP" Then
+            gpa14.Text = 2 * credithrs14.Text
+        ElseIf gradepoint14.Text = "D" Then
+            gpa14.Text = 1.75 * credithrs14.Text
+        ElseIf gradepoint14.Text = "DM" Then
+            gpa14.Text = 1.5 * credithrs14.Text
+        End If
+
+        If gradepoint15.Text = "A" Then
+            gpa15.Text = 4 * credithrs15.Text
+        ElseIf gradepoint15.Text = "AM" Then
+            gpa15.Text = 3.75 * credithrs15.Text
+        ElseIf gradepoint15.Text = "BP" Then
+            gpa15.Text = 3.5 * credithrs15.Text
+        ElseIf gradepoint15.Text = "B" Then
+            gpa15.Text = 3.25 * credithrs15.Text
+        ElseIf gradepoint15.Text = "BM" Then
+            gpa15.Text = 3 * credithrs15.Text
+        ElseIf gradepoint15.Text = "CP" Then
+            gpa15.Text = 2.75 * credithrs15.Text
+        ElseIf gradepoint15.Text = "C" Then
+            gpa15.Text = 2.5 * credithrs15.Text
+        ElseIf gradepoint15.Text = "CM" Then
+            gpa15.Text = 2.25 * credithrs15.Text
+        ElseIf gradepoint15.Text = "DP" Then
+            gpa15.Text = 2 * credithrs15.Text
+        ElseIf gradepoint15.Text = "D" Then
+            gpa15.Text = 1.75 * credithrs15.Text
+        ElseIf gradepoint15.Text = "DM" Then
+            gpa15.Text = 1.5 * credithrs15.Text
+        End If
+
+        If gradepoint16.Text = "A" Then
+            gpa16.Text = 4 * credithrs16.Text
+        ElseIf gradepoint16.Text = "AM" Then
+            gpa16.Text = 3.75 * credithrs16.Text
+        ElseIf gradepoint16.Text = "BP" Then
+            gpa16.Text = 3.5 * credithrs16.Text
+        ElseIf gradepoint16.Text = "B" Then
+            gpa16.Text = 3.25 * credithrs16.Text
+        ElseIf gradepoint16.Text = "BM" Then
+            gpa16.Text = 3 * credithrs16.Text
+        ElseIf gradepoint16.Text = "CP" Then
+            gpa16.Text = 2.75 * credithrs16.Text
+        ElseIf gradepoint16.Text = "C" Then
+            gpa16.Text = 2.5 * credithrs16.Text
+        ElseIf gradepoint16.Text = "CM" Then
+            gpa16.Text = 2.25 * credithrs16.Text
+        ElseIf gradepoint16.Text = "DP" Then
+            gpa16.Text = 2 * credithrs16.Text
+        ElseIf gradepoint16.Text = "D" Then
+            gpa16.Text = 1.75 * credithrs16.Text
+        ElseIf gradepoint16.Text = "DM" Then
+            gpa16.Text = 1.5 * credithrs16.Text
+        End If
+
+        If gradepoint17.Text = "A" Then
+            gpa17.Text = 4 * credithrs17.Text
+        ElseIf gradepoint17.Text = "AM" Then
+            gpa17.Text = 3.75 * credithrs17.Text
+        ElseIf gradepoint17.Text = "BP" Then
+            gpa17.Text = 3.5 * credithrs17.Text
+        ElseIf gradepoint17.Text = "B" Then
+            gpa17.Text = 3.25 * credithrs17.Text
+        ElseIf gradepoint17.Text = "BM" Then
+            gpa17.Text = 3 * credithrs17.Text
+        ElseIf gradepoint17.Text = "CP" Then
+            gpa17.Text = 2.75 * credithrs17.Text
+        ElseIf gradepoint17.Text = "C" Then
+            gpa17.Text = 2.5 * credithrs17.Text
+        ElseIf gradepoint17.Text = "CM" Then
+            gpa17.Text = 2.25 * credithrs17.Text
+        ElseIf gradepoint17.Text = "DP" Then
+            gpa17.Text = 2 * credithrs17.Text
+        ElseIf gradepoint17.Text = "D" Then
+            gpa17.Text = 1.75 * credithrs17.Text
+        ElseIf gradepoint17.Text = "DM" Then
+            gpa17.Text = 1.5 * credithrs17.Text
+        End If
+
+        If gradepoint18.Text = "A" Then
+            gpa18.Text = 4 * credithrs18.Text
+        ElseIf gradepoint18.Text = "AM" Then
+            gpa18.Text = 3.75 * credithrs18.Text
+        ElseIf gradepoint18.Text = "BP" Then
+            gpa18.Text = 3.5 * credithrs18.Text
+        ElseIf gradepoint18.Text = "B" Then
+            gpa18.Text = 3.25 * credithrs18.Text
+        ElseIf gradepoint18.Text = "BM" Then
+            gpa18.Text = 3 * credithrs18.Text
+        ElseIf gradepoint18.Text = "CP" Then
+            gpa18.Text = 2.75 * credithrs18.Text
+        ElseIf gradepoint18.Text = "C" Then
+            gpa18.Text = 2.5 * credithrs18.Text
+        ElseIf gradepoint18.Text = "CM" Then
+            gpa18.Text = 2.25 * credithrs18.Text
+        ElseIf gradepoint18.Text = "DP" Then
+            gpa18.Text = 2 * credithrs18.Text
+        ElseIf gradepoint18.Text = "D" Then
+            gpa18.Text = 1.75 * credithrs18.Text
+        ElseIf gradepoint18.Text = "DM" Then
+            gpa18.Text = 1.5 * credithrs18.Text
+        End If
+
+        If gradepoint19.Text = "A" Then
+            gpa19.Text = 4 * credithrs19.Text
+        ElseIf gradepoint19.Text = "AM" Then
+            gpa19.Text = 3.75 * credithrs19.Text
+        ElseIf gradepoint19.Text = "BP" Then
+            gpa19.Text = 3.5 * credithrs19.Text
+        ElseIf gradepoint19.Text = "B" Then
+            gpa19.Text = 3.25 * credithrs19.Text
+        ElseIf gradepoint19.Text = "BM" Then
+            gpa19.Text = 3 * credithrs19.Text
+        ElseIf gradepoint19.Text = "CP" Then
+            gpa19.Text = 2.75 * credithrs19.Text
+        ElseIf gradepoint19.Text = "C" Then
+            gpa19.Text = 2.5 * credithrs19.Text
+        ElseIf gradepoint19.Text = "CM" Then
+            gpa19.Text = 2.25 * credithrs19.Text
+        ElseIf gradepoint19.Text = "DP" Then
+            gpa19.Text = 2 * credithrs19.Text
+        ElseIf gradepoint19.Text = "D" Then
+            gpa19.Text = 1.75 * credithrs19.Text
+        ElseIf gradepoint19.Text = "DM" Then
+            gpa19.Text = 1.5 * credithrs19.Text
+        End If
+
+
+
+        If gradepoint20.Text = "A" Then
+            gpa20.Text = 4 * credithrs20.Text
+        ElseIf gradepoint20.Text = "AM" Then
+            gpa20.Text = 3.75 * credithrs20.Text
+        ElseIf gradepoint20.Text = "BP" Then
+            gpa20.Text = 3.5 * credithrs20.Text
+        ElseIf gradepoint20.Text = "B" Then
+            gpa20.Text = 3.25 * credithrs20.Text
+        ElseIf gradepoint20.Text = "BM" Then
+            gpa20.Text = 3 * credithrs20.Text
+        ElseIf gradepoint20.Text = "CP" Then
+            gpa20.Text = 2.75 * credithrs20.Text
+        ElseIf gradepoint20.Text = "C" Then
+            gpa20.Text = 2.5 * credithrs20.Text
+        ElseIf gradepoint20.Text = "CM" Then
+            gpa20.Text = 2.25 * credithrs20.Text
+        ElseIf gradepoint20.Text = "DP" Then
+            gpa20.Text = 2 * credithrs20.Text
+        ElseIf gradepoint20.Text = "D" Then
+            gpa20.Text = 1.75 * credithrs20.Text
+        ElseIf gradepoint20.Text = "DM" Then
+            gpa20.Text = 1.5 * credithrs20.Text
+        End If
+
+
+
+        If gradepoint21.Text = "A" Then
+            gpa21.Text = 4 * credithrs21.Text
+        ElseIf gradepoint21.Text = "AM" Then
+            gpa21.Text = 3.75 * credithrs21.Text
+        ElseIf gradepoint21.Text = "BP" Then
+            gpa21.Text = 3.5 * credithrs21.Text
+        ElseIf gradepoint21.Text = "B" Then
+            gpa21.Text = 3.25 * credithrs21.Text
+        ElseIf gradepoint21.Text = "BM" Then
+            gpa21.Text = 3 * credithrs21.Text
+        ElseIf gradepoint21.Text = "CP" Then
+            gpa21.Text = 2.75 * credithrs21.Text
+        ElseIf gradepoint21.Text = "C" Then
+            gpa21.Text = 2.5 * credithrs21.Text
+        ElseIf gradepoint21.Text = "CM" Then
+            gpa21.Text = 2.25 * credithrs21.Text
+        ElseIf gradepoint21.Text = "DP" Then
+            gpa21.Text = 2 * credithrs21.Text
+        ElseIf gradepoint21.Text = "D" Then
+            gpa21.Text = 1.75 * credithrs21.Text
+        ElseIf gradepoint21.Text = "DM" Then
+            gpa21.Text = 1.5 * credithrs21.Text
+        End If
+
+
+        If gradepoint22.Text = "A" Then
+            gpa22.Text = 4 * credithrs22.Text
+        ElseIf gradepoint22.Text = "AM" Then
+            gpa22.Text = 3.75 * credithrs22.Text
+        ElseIf gradepoint22.Text = "BP" Then
+            gpa22.Text = 3.5 * credithrs22.Text
+        ElseIf gradepoint22.Text = "B" Then
+            gpa22.Text = 3.25 * credithrs22.Text
+        ElseIf gradepoint22.Text = "BM" Then
+            gpa22.Text = 3 * credithrs22.Text
+        ElseIf gradepoint22.Text = "CP" Then
+            gpa22.Text = 2.75 * credithrs22.Text
+        ElseIf gradepoint22.Text = "C" Then
+            gpa22.Text = 2.5 * credithrs22.Text
+        ElseIf gradepoint22.Text = "CM" Then
+            gpa22.Text = 2.25 * credithrs22.Text
+        ElseIf gradepoint22.Text = "DP" Then
+            gpa22.Text = 2 * credithrs22.Text
+        ElseIf gradepoint22.Text = "D" Then
+            gpa22.Text = 1.75 * credithrs22.Text
+        ElseIf gradepoint22.Text = "DM" Then
+            gpa22.Text = 1.5 * credithrs22.Text
+        End If
+
+
+        If gradepoint23.Text = "A" Then
+            gpa23.Text = 4 * credithrs23.Text
+        ElseIf gradepoint23.Text = "AM" Then
+            gpa23.Text = 3.75 * credithrs23.Text
+        ElseIf gradepoint23.Text = "BP" Then
+            gpa23.Text = 3.5 * credithrs23.Text
+        ElseIf gradepoint23.Text = "B" Then
+            gpa23.Text = 3.25 * credithrs23.Text
+        ElseIf gradepoint23.Text = "BM" Then
+            gpa23.Text = 3 * credithrs23.Text
+        ElseIf gradepoint23.Text = "CP" Then
+            gpa23.Text = 2.75 * credithrs23.Text
+        ElseIf gradepoint23.Text = "C" Then
+            gpa23.Text = 2.5 * credithrs23.Text
+        ElseIf gradepoint23.Text = "CM" Then
+            gpa23.Text = 2.25 * credithrs23.Text
+        ElseIf gradepoint23.Text = "DP" Then
+            gpa23.Text = 2 * credithrs23.Text
+        ElseIf gradepoint23.Text = "D" Then
+            gpa23.Text = 1.75 * credithrs23.Text
+        ElseIf gradepoint23.Text = "DM" Then
+            gpa23.Text = 1.5 * credithrs23.Text
+        End If
+
+                cgpa.Text = (Val(gpa.Text) + Val(gpa1.Text) + Val(gpa2.Text) + Val(gpa3.Text) + Val(gpa4.Text) + Val(gpa5.Text) + Val(gpa6.Text) + Val(gpa7.Text) + Val(gpa8.Text) + Val(gpa9.Text) + Val(gpa10.Text) + Val(gpa11.Text) + Val(gpa12.Text) + Val(gpa13.Text) + Val(gpa14.Text) + Val(gpa15.Text) + Val(gpa16.Text) + Val(gpa17.Text) + Val(gpa18.Text) + Val(gpa19.Text) + Val(gpa20.Text) + Val(gpa21.Text) + Val(gpa22.Text) + Val(gpa23.Text)) / (Val(credithrs0.Text) + Val(credithrs1.Text) + Val(credithrs2.Text) + Val(credithrs3.Text) + Val(credithrs4.Text) + Val(credithrs5.Text) + Val(credithrs6.Text) + Val(credithrs7.Text) + Val(credithrs8.Text) + Val(credithrs9.Text) + Val(credithrs10.Text) + Val(credithrs11.Text) + Val(credithrs12.Text) + Val(credithrs13.Text) + Val(credithrs14.Text) + Val(credithrs15.Text) + Val(credithrs16.Text) + Val(credithrs17.Text) + Val(credithrs18.Text) + Val(credithrs19.Text) + Val(credithrs20.Text) + Val(credithrs21.Text) + Val(credithrs22.Text) + Val(credithrs23.Text))
+
+
+
+    End Sub
+End Class
